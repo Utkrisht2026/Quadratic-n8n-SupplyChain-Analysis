@@ -81,39 +81,64 @@ You'll find:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Utkrisht2026/Quadratic-n8n-SupplyChain-Analysis.git
-Follow the PDF guides in this order:
 
-Set up local n8n environment
 
-Create a database in Supabase
+## 🚀 How to Use This Project
 
-Configure Gmail API for alerts
+Follow these steps to set up, analyze, and automate using this project:
 
-Load the datasets (fact_aggregate.csv, fact_order_line.csv) into:
+### 🔧 Step-by-Step Setup
 
-Quadratic (for EDA)
+1. **Set up the local n8n environment**  
+   📄 Refer: `1_N8n_Setup_in_Local_Host.pdf`
 
-Supabase (if using n8n workflows)
+2. **Create a PostgreSQL database in Supabase**  
+   📄 Refer: `2_Setup_a_Postgres_DB_in_Supabase.pdf`
 
-Use Required_Prompts.pdf to test AI queries, automate insights, or trigger actions (like alerts or reporting).
+3. **Configure Gmail API for automated email alerts**  
+   📄 Refer: `3_Creating_OAuthClientID_for_Gmail_API.pdf`
 
-(Optional) Extend workflows by integrating Slack, Google Sheets, or third-party APIs using n8n.
+---
 
-📚 References
-Quadratic Docs
+### 📊 Load and Analyze the Data
 
-n8n Docs
+4. **Load the datasets for analysis:**
+   - `fact_aggregate.csv` – Summary-level supply chain data
+   - `fact_order_line.csv` – Detailed transactional order data
 
-Supabase Docs
+   💡 You can use:
+   - **Quadratic** → for AI-powered Exploratory Data Analysis (EDA)
+   - **Supabase** → as a backend if using workflows with **n8n**
 
-Google OAuth Client Setup
+---
 
-👨‍💻 Author
-Utkrisht Jalan
-Aspiring Data Analyst | Passionate about automation, AI, and simplifying data workflows
+### 🤖 Automate Insights & Alerts
 
-🔗 GitHub
+5. **Use** `Required_Prompts.pdf` **to:**
+   - Generate AI-powered analysis questions
+   - Trigger reports or alerts using n8n
+   - Customize workflows based on your data needs
 
-🧠 Tools: SQL · Python · Power BI · Excel · n8n · Quadratic
+6. **(Optional)** Extend your automation by integrating:
+   - Slack, Google Sheets, Airtable
+   - Other third-party APIs via **n8n**
 
-🧩 Fun fact: I love finding the smartest way to automate manual tasks!
+
+
+## 📚 References
+
+- [Quadratic Documentation](https://docs.quadratichq.com/)
+- [n8n Documentation](https://docs.n8n.io/)
+- [Supabase Documentation](https://supabase.com/docs)
+- [Google OAuth Client Setup Guide](https://developers.google.com/identity/protocols/oauth2)
+
+
+## 🚀 Author
+
+**Utkrisht Jalan**  
+Aspiring Data Analyst | Python, SQL, Power BI, Excel  
+[GitHub Profile](https://github.com/Utkrisht2026)
+
+---
+
+## ⭐️ If you found this useful, feel free to give it a star!
